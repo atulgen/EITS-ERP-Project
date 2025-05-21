@@ -1,0 +1,2 @@
+- Delivery within 3-4 weeks from the date of order confirmation with signed LPO.
+- Work completion 3-4 working days from date of access & material availability.
