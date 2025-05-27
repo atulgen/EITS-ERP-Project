@@ -179,6 +179,11 @@ This document provides a comprehensive guide for implementing user management an
 
 ## Implementation Steps in ERPNext
 
+
+### Step 0: Create a Role Profile
+
+
+
 ### Step 1: Create Custom Roles
 
 1. Navigate to **Setup > Users and Permissions > Role**
@@ -191,8 +196,6 @@ This document provides a comprehensive guide for implementing user management an
 ### Step 2: Configure Role Permissions
 
 For each role, configure permissions across relevant doctypes:
-
-
 
 #### Common Doctypes to Configure:
 
@@ -215,7 +218,6 @@ For each role, configure permissions across relevant doctypes:
 - **Amend:** Permission to amend cancelled documents
 
 ![alt text](image.png)
-
 
 ### Step 3: Set Up User Restrictions
 
@@ -249,8 +251,6 @@ Configure user-specific restrictions based on business requirements:
 Set up approval workflows for critical business processes:
 
 ![alt text](image-1.png)
-
-
 
 #### Sales Process Workflow:
 
@@ -351,3 +351,19 @@ Set up approval workflows for critical business processes:
 - Impact assessment procedures
 
 This comprehensive user and role structure ensures appropriate access control while maintaining operational efficiency across all departments of EITS.
+
+
+
+---
+
+
+## Issues:
+
+### User is not allowed update the Lead.
+
+```plaintxt
+Not allowed via controller permission check
+User sales_executive@eits.com does not have access to this document: Event - EV00001You need the 'write' permission on Event EV00001 to perform this action.
+```
+
+

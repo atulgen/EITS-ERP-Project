@@ -2,6 +2,7 @@
 
 - [Docs](https://docs.frappe.io/crm/introduction)
 - [Installation](https://github.com/frappe/bench#installation)
+- [The Flow](#the-flow)
 
 ---
 
@@ -55,6 +56,22 @@ docker compose -f pwd.yml logs -f create-site
 
 First let's make sure that we have our
 [Users and Roles](../Roles/Users%20and%20Role%20Defination/readme.md) defined correctly.
+
+### The Flow
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
 
 #### Manual
 
