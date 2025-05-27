@@ -4,6 +4,7 @@
 
 1. [Implementation Overview](#implementation-overview)
    - 1.1 [Roles](./Roles/readme.md)
+   - 1.2 [CRM](./CRM/readme.md)
 2. [Development Environment Setup](#development-environment-setup)
    - 2.1 [Bench Setup](#bench-setup)
    - 2.2 [ERPNext Installation](#erpnext-installation)

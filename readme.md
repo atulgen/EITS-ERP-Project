@@ -23,6 +23,7 @@
 ## Current Business Context
 
 EITS specializes in manufacturing and installation of:
+
 - Mechanical systems and components
 - Electrical installations
 - Plumbing solutions
@@ -35,6 +36,7 @@ The company currently handles complex projects like the aluminum gate work for J
 ### 1. Customer Relationship Management (CRM)
 
 #### Lead Generation & Enquiry Management
+
 - **Initial Contact Capture**
   - Source tracking (website, referral, direct contact)
   - Basic customer information
@@ -42,13 +44,16 @@ The company currently handles complex projects like the aluminum gate work for J
   - Urgency level assessment
 
 #### Enquiry Processing Workflow
+
 1. **Minimum Information Capture**
+
    - Contact details (email/phone - mandatory)
    - Customer/company name
    - Property/project location
    - Basic project requirements
 
 2. **Detailed Information Gathering**
+
    - Complete customer profile
    - Property specifications
    - Detailed project scope
@@ -66,12 +71,14 @@ The company currently handles complex projects like the aluminum gate work for J
 ### 2. Enterprise Resource Planning (ERP)
 
 #### Project Management System
+
 - **Automatic Item Code Generation**
   - Systematic coding for all materials and services
   - Category-based classification
   - Version control for specifications
 
 #### Quotation Management
+
 - **Dynamic Quotation Generation**
   - Bill of Materials (BOM) integration
   - Labor cost calculation
@@ -81,6 +88,7 @@ The company currently handles complex projects like the aluminum gate work for J
   - Tax calculations (VAT integration)
 
 #### Inventory & Procurement
+
 - **Item Master Management**
   - Detailed item specifications
   - Supplier information
@@ -89,6 +97,7 @@ The company currently handles complex projects like the aluminum gate work for J
   - Reorder point management
 
 #### Financial Management
+
 - **Cost Control & Pricing**
   - Material cost tracking
   - Labor hour calculation
@@ -99,19 +108,23 @@ The company currently handles complex projects like the aluminum gate work for J
 ### 3. Operational Features
 
 #### Role-Based Dashboard System
+
 - **Management Dashboard**
+
   - Business overview metrics
   - Revenue tracking
   - Project status summary
   - Team performance indicators
 
 - **Sales Team Dashboard**
+
   - Lead pipeline management
   - Quotation status tracking
   - Customer interaction history
   - Target achievement metrics
 
 - **Operations Dashboard**
+
   - Active project monitoring
   - Resource allocation
   - Timeline tracking
@@ -124,6 +137,7 @@ The company currently handles complex projects like the aluminum gate work for J
   - Financial reporting
 
 #### Communication Integration
+
 - **Email Integration**
   - Automated quotation delivery
   - Follow-up reminders
@@ -131,7 +145,9 @@ The company currently handles complex projects like the aluminum gate work for J
   - Payment notifications
 
 #### Advanced Features
+
 - **Tag-based Item Classification**
+
   - Material categorization
   - Service type tagging
   - Project complexity indicators
@@ -146,18 +162,21 @@ The company currently handles complex projects like the aluminum gate work for J
 ## Implementation Scope
 
 ### Phase 1: Core CRM Implementation
+
 - Lead capture and management system
 - Customer database creation
 - Basic quotation generation
 - Communication tools integration
 
 ### Phase 2: ERP Integration
+
 - Inventory management system
 - Financial module implementation
 - Project tracking capabilities
 - Reporting and analytics
 
 ### Phase 3: Advanced Features
+
 - Mobile application for field teams
 - Advanced analytics and forecasting
 - Third-party integrations
@@ -166,24 +185,28 @@ The company currently handles complex projects like the aluminum gate work for J
 ## Expected Business Benefits
 
 ### Operational Efficiency
+
 - Streamlined lead-to-completion process
 - Reduced manual data entry
 - Improved quotation accuracy
 - Enhanced project tracking
 
 ### Customer Experience
+
 - Faster response times
 - Professional quotation presentation
 - Better project communication
 - Improved service delivery
 
 ### Financial Management
+
 - Better cost control
 - Improved profit margins
 - Enhanced cash flow management
 - Detailed financial reporting
 
 ### Scalability
+
 - Support for business growth
 - Standardized processes
 - Improved resource utilization
@@ -197,7 +220,6 @@ The company currently handles complex projects like the aluminum gate work for J
 - Customer satisfaction increase
 - Revenue growth tracking
 - Operational cost reduction
-
 
 ---
 
