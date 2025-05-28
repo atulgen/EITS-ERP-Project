@@ -181,6 +181,10 @@ This document provides a comprehensive guide for implementing user management an
 
 ### Step 0: Create a Role Profile
 
+![alt text](image-2.png)
+
+
+
 ### Step 1: Create Custom Roles
 
 1. Navigate to **Setup > Users and Permissions > Role**
