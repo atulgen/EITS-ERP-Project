@@ -179,10 +179,7 @@ This document provides a comprehensive guide for implementing user management an
 
 ## Implementation Steps in ERPNext
 
-
 ### Step 0: Create a Role Profile
-
-
 
 ### Step 1: Create Custom Roles
 
@@ -352,10 +349,7 @@ Set up approval workflows for critical business processes:
 
 This comprehensive user and role structure ensures appropriate access control while maintaining operational efficiency across all departments of EITS.
 
-
-
 ---
-
 
 ## Issues:
 
@@ -365,5 +359,3 @@ This comprehensive user and role structure ensures appropriate access control wh
 Not allowed via controller permission check
 User sales_executive@eits.com does not have access to this document: Event - EV00001You need the 'write' permission on Event EV00001 to perform this action.
 ```
-
-
