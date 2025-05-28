@@ -53,3 +53,21 @@ sudo -H pip3 install frappe-bench
 bench --version
 ```
 
+
+---
+
+
+#### Starting:
+
+```bash
+bench init eits-dev
+bench get-app erpnext
+bench new-site eits.local 
+bench --site eits.local install-app
+```
+```bash
+bench --site eits.local add-to-hosts
+```
+
+
+
