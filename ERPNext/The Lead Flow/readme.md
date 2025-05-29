@@ -8,23 +8,27 @@
 
 ![alt text](image-2.png)
 
+## Create New Lead 
+
 ![alt text](image-3.png)
 
-![Tasks](image-4.png)
 
-![Notes](image-5.png)
+
+![alt text](image-4.png)
 
 ## Relationships from Lead
 
-![Relationships](image-6.png)
-
+![alt text](image-5.png)
 
 ---
+
 
 ![Task assignments](image-7.png)
 
 ![Task Dashboard](image-8.png)
 
+
+## Site Supervisor
 
 ## Assigned Member
 
@@ -32,3 +36,5 @@
 
 ![alt text](image-10.png)
 
+
+![The Lead Diagram](./the-lead.png)
