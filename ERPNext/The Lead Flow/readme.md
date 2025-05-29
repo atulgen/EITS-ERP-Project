@@ -17,3 +17,18 @@
 ## Relationships from Lead
 
 ![Relationships](image-6.png)
+
+
+---
+
+![Task assignments](image-7.png)
+
+![Task Dashboard](image-8.png)
+
+
+## Assigned Member
+
+![Assigned member can see the Lead](image-9.png)
+
+![alt text](image-10.png)
+

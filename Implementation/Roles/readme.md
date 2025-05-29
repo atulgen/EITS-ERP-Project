@@ -13,8 +13,7 @@
 9. [Communication Hierarchy](#communication-hierarchy)
 10. [Implementation](./Users%20and%20Role%20Defination/readme.md)
 
-[Back](../readme.md)
----
+## [Back](../readme.md)
 
 ## Role Overview
 
@@ -28,16 +27,11 @@ Lead Generation → Enquiry Processing → Site Assessment → Quotation → Pro
    Sales Rep    →  Sales Coord.    →  Tech Inspector → Sales Mgr → Project Mgr → Admin
 ```
 
-
 ![](./roles.png)
-
-
-
 
 ## Sales & Customer Relations
 
 - [CRM Implementation](../CRM/readme.md)
-
 
 ### 1. Sales Representative
 
