@@ -97,3 +97,35 @@
   - Collection
 
 ![Relationship in erp](image-4.png)
+
+---
+
+---
+
+#### Material Category Form
+
+- SNo: 3
+- DocType: Item Group
+- Module: Stock
+
+![Item group](image-6.png)
+
+![All Item groups](image-7.png)
+
+- Relationships
+
+  - Material Group,
+  - Issue,
+  - Receipt,
+  - currency,
+  - Unit,
+  - Dimension
+
+- Remarks:
+  - Material category in requirement can be mapped to Item Group
+  - Material to be mapped with Item.
+  - In Relationships "Material Group" is to be seems as in place of Item group
+
+---
+
+---
