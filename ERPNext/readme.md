@@ -45,3 +45,26 @@
 - Default Price List
 
 
+
+- Relationships
+    - Inquiry, 
+    - Site Inspection, 
+    - Quotation, 
+    - Jobs,
+    - Followup, 
+    - Approval, 
+    - Invoice, 
+    - Collection
+
+
+- Remarks
+    - Customer can be created
+    - Except Address, all the details about customer can be added. 
+
+
+
+---
+---
+
+
+
