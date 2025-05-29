@@ -129,3 +129,20 @@
 ---
 
 ---
+
+
+#### Material Form
+
+- SNo: 4
+- DocType: Item
+- Module: Stock
+
+![Item](image-8.png)
+
+
+- Relationships
+
+![alt text](image-9.png)
+
+- Remarks:
+  - Material is to be mapped with Item in ERPNext.
