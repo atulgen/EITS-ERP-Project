@@ -68,6 +68,3 @@ bench --site eits.local install-app
 ```bash
 bench --site eits.local add-to-hosts
 ```
-
-
-
