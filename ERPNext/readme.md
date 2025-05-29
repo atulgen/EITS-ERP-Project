@@ -1,27 +1,22 @@
-
-
-
-## Development: 
+## Development:
 
 - URL: http://eits.local:8001
 - Administrator:
-    - username: Administrator
-    - password: admin
-
+  - username: Administrator
+  - password: admin
 
 ### ERPNext
-
 
 - URL: http://eits.local:8001/app/home
 
 ![alt text](image.png)
-
 
 #### Customer Form
 
 - SNo: 1
 
 - DocType: Customer
+- Module: Selling
 
 - URL: http://eits.local:8001/app/customer
 
@@ -32,39 +27,73 @@
 - Customer name
 - Address and contact
 - Customer Group
-    - Commercial
-    - Individual
-    - Govt
-    - NGO
+  - Commercial
+  - Individual
+  - Govt
+  - NGO
 - Source
-    - From Lead
-    - From Opportunity
-    - From Prospect?
+  - From Lead
+  - From Opportunity
+  - From Prospect?
 - Billing Currency
 - Bank Account
 - Default Price List
 
-
-
 - Relationships
-    - Inquiry, 
-    - Site Inspection, 
-    - Quotation, 
-    - Jobs,
-    - Followup, 
-    - Approval, 
-    - Invoice, 
-    - Collection
+  - Inquiry,
+  - Site Inspection,
+  - Quotation,
+  - Jobs,
+  - Followup,
+  - Approval,
+  - Invoice,
+  - Collection
 
+![Relationships](image-5.png)
 
 - Remarks
-    - Customer can be created
-    - Except Address, all the details about customer can be added. 
-
-
+  - Customer can be created
+  - Except Address, all the details about customer can be added.
 
 ---
+
 ---
 
+#### Supplier Form
 
+- SNo: 2
 
+- DocType: Supplier
+- Module: Buying
+
+![Supplier form](image-2.png)
+
+##### Attributes:
+
+- Supplier Name
+- Country
+- Supplier Group
+  - Distributer
+  - Electrical
+  - Hardware
+  - Local
+- Supplier Type
+- Is Transporter
+- Defaults
+  - Billing Currency
+  - Default Company Bank Account
+  - Price List
+
+![More Supplier details](image-3.png)
+
+- Relationships
+  - Inquiry,
+  - Site Inspection,
+  - Quotation,
+  - Jobs,
+  - Followup,
+  - Approval,
+  - Invoice,
+  - Collection
+
+![Relationship in erp](image-4.png)
