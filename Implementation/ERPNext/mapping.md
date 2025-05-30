@@ -140,6 +140,8 @@
 - SNo: 5
 - DocType: UOM
   - Unit Of Measurement
+- Module: Stock
+
 
 ![alt text](image-10.png)
 
@@ -151,6 +153,7 @@
 - DocType: Employee
 
 
+
 ![alt text](image-11.png)
 
 
@@ -158,5 +161,7 @@
 
 - SNo: 7
 - Doctype: Currency
+- Module: Accounting
+
 
 ![alt text](image-12.png)
