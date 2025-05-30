@@ -1,6 +1,7 @@
 ## Table of Content
 
 - [The Lead Flow](./The%20Lead%20Flow/readme.md)
+- [The Lead Flow V2](./The%20Lead%20Flow%20V2/readme.md)
 
 
 ## [Back](../readme.md)

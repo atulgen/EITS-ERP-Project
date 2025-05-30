@@ -94,3 +94,15 @@ atuld@pop-os:~/Desktop/GennextIT/MEP-ERP/frappe/eits-bench/eits-dev$ bench start
 Not allowed via controller permission check
 User sales_executive@eits.com does not have access to this document: Event - EV00001You need the 'write' permission on Event EV00001 to perform this action.
 ```
+
+
+### Unable to edit workspace 
+
+Error: Value missing for Workspace: Type
+
+
+![alt text](image.png)
+
+- Rearranged the components and got this error.
+
+
