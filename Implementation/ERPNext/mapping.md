@@ -134,3 +134,12 @@
 
 - Remarks:
   - Material is to be mapped with Item in ERPNext.
+
+#### Unit of Material Form
+
+- SNo: 5
+- DocType: UOM
+  - Unit Of Measurement
+
+![alt text](image-10.png)
+
