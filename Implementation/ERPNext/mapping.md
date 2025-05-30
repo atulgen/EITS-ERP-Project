@@ -143,3 +143,20 @@
 
 ![alt text](image-10.png)
 
+
+#### Employee Form
+
+
+- SNo: 6
+- DocType: Employee
+
+
+![alt text](image-11.png)
+
+
+#### Currency Form
+
+- SNo: 7
+- Doctype: Currency
+
+![alt text](image-12.png)
