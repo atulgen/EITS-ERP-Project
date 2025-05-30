@@ -355,11 +355,6 @@ This comprehensive user and role structure ensures appropriate access control wh
 
 ---
 
-## Issues:
 
-### User is not allowed update the Lead.
 
-```plaintxt
-Not allowed via controller permission check
-User sales_executive@eits.com does not have access to this document: Event - EV00001You need the 'write' permission on Event EV00001 to perform this action.
-```
+## [Back](../readme.md)

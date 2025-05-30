@@ -87,3 +87,10 @@ atuld@pop-os:~/Desktop/GennextIT/MEP-ERP/frappe/eits-bench/eits-dev$ bench start
 10:16:34 system        | redis_cache.1 stopped (rc=-15)
 ```
 
+
+### User is not allowed update the Lead.
+
+```plaintxt
+Not allowed via controller permission check
+User sales_executive@eits.com does not have access to this document: Event - EV00001You need the 'write' permission on Event EV00001 to perform this action.
+```
