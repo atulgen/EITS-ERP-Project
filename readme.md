@@ -13,9 +13,11 @@
 6. [Success Metrics](#success-metrics)
 7. [Implementation](./Implementation/readme.md)
 8. [Requirement Mapping](./Requirement%20Mapping/readme.md)
-8. [Customization](./Custoimization/readme.md)
-8. [Issues](./Issues/readme.md)
+9. [Customization](./Custoimization/readme.md)
+10. [Issues](./Issues/readme.md)
 
+
+- EITS App [Repository](https://codeberg.org/atul_raj/eits-erp-app)
 ---
 
 ## Project Overview
