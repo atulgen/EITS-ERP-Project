@@ -1,0 +1,21 @@
+Date,Day,Project_Phase,Task_Category,Task_Description,Hours_Spent,Cumulative_Hours,Status,Commits/Notes
+2025-05-15,Thursday,Phase 1 - Analysis,Research & Learning,ERPNext documentation study and Frappe framework basics,4,4,Completed,Initial project setup research
+2025-05-15,Thursday,Phase 1 - Analysis,Requirement Analysis,EITS quotation analysis and requirement mapping,4,8,Completed,Analyzed client quotation structure
+2025-05-16,Friday,Phase 1 - Development,Environment Setup,Frappe bench installation and ERPNext setup,6,14,Completed,Local development environment
+2025-05-16,Friday,Phase 1 - Development,Learning,Frappe DocType and customization learning,2,16,Completed,Framework fundamentals
+2025-05-17,Saturday,Phase 1 - Development,Custom Development,Initial quotation form structure development,8,24,Completed,Basic form layout created
+2025-05-19,Monday,Phase 1 - Development,Custom Development,Quotation generation logic implementation,6,30,Completed,Core quotation functionality
+2025-05-19,Monday,Phase 1 - Development,Research,EITS business process mapping,2,32,Completed,Process flow documentation
+2025-05-20,Tuesday,Phase 1 - Development,Custom Development,Sample quotation testing and refinement,8,40,Completed,Testing quotation generation
+2025-05-21,Wednesday,Phase 1 - Development,Custom Development,Production deployment setup research,4,44,Completed,"Commit: podman guide, production and deployment"
+2025-05-21,Wednesday,Phase 1 - Development,Feature Development,Inventory management integration,4,48,Completed,"Commit: Added inventory management, first commit"
+2025-05-22,Thursday,Phase 2 - Refinement,Custom Development,Quotation finalization and optimization,8,56,Completed,Enhanced quotation features
+2025-05-23,Friday,Phase 2 - Refinement,Testing & Debugging,Quotation form testing and bug fixes,8,64,Completed,Quality assurance
+2025-05-24,Saturday,Phase 2 - Refinement,Custom Development,Advanced quotation features implementation,8,72,Completed,Feature enhancement
+2025-05-26,Monday,Phase 2 - Setup,CRM Development,Customer Relationship Management setup,8,80,Completed,Commit: CRM development
+2025-05-27,Tuesday,Phase 2 - Setup,CRM & Roles,CRM finalization and user roles configuration,8,88,Completed,"Commits: CRM, Roles implementation"
+2025-05-28,Wednesday,Phase 2 - Setup,Role Management,User roles and permissions setup,4,92,Completed,"Commits: Roles, Manual setup"
+2025-05-28,Wednesday,Phase 2 - Setup,System Configuration,Core bench configuration and manual setup,4,96,Completed,Commit: core bench
+2025-05-29,Thursday,Phase 2 - Forms,Form Development,Customer and supplier form creation,8,104,Completed,"Commits: Customer Form, Supplier form, Material Category Form, Material Form"
+2025-05-30,Friday,Phase 2 - Lead Flow,Lead Management,Lead flow implementation and UOM setup,8,112,Completed,"Commits: New lead flow V2, UOM, Employee and Currency, Modules"
+2025-05-31,Saturday,Phase 2 - Customization,Lead Customization,Lead status customization and contact requirements,8,120,Completed,"Commits: lead status, Customization, Must have Contact in Lead"
