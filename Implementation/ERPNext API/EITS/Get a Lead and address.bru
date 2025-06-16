@@ -1,0 +1,15 @@
+meta {
+  name: Get a Lead and address
+  type: http
+  seq: 4
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/Address?filters=[["Dynamic Link","link_doctype","=","Lead"],["Dynamic Link","link_name","=","CRM-LEAD-2025-00006"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["Dynamic Link","link_doctype","=","Lead"],["Dynamic Link","link_name","=","CRM-LEAD-2025-00006"]]
+}

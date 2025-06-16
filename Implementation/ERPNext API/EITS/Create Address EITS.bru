@@ -1,0 +1,38 @@
+meta {
+  name: Create Address EITS
+  type: http
+  seq: 6
+}
+
+post {
+  url: https://eits.thebigocommunity.org/api/resource/Lead
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "lead_name": "Jane Smith",
+    "company_name": "Tech Innovations Ltd",
+    "email_id": "jane.smith@techinnovations.com",
+    "mobile_no": "+1-555-0200",
+    "phone": "+1-555-0201",
+    "website": "https://techinnovations.com",
+    "lead_owner": "Administrator",
+    "status": "Open",
+    "source": "Cold Calling",
+    "industry": "Software",
+    "annual_revenue": 5000000,
+    "no_of_employees": 200,
+    "market_segment": "Enterprise",
+    "territory": "United States",
+    "request_type": "Product Enquiry",
+    "notes": "Looking for custom software solutions",
+    "address_line1": "456 Tech Boulevard",
+    "address_line2": "Floor 5",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "pincode": "94105"
+  }
+}
