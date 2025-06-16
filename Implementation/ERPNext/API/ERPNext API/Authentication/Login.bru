@@ -1,0 +1,18 @@
+meta {
+  name: Login
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://eits.local:8001/api/method/login
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "usr": "sales.rep@eits.com",
+    "pwd": "7@,Pj(RHzMI#=h@8c]DC"
+  }
+}
