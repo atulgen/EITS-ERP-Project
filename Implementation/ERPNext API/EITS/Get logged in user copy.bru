@@ -1,0 +1,16 @@
+meta {
+  name: Get logged in user copy
+  type: http
+  seq: 8
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/frappe.desk.form.load.getdoc?doctype=User&name=sales.rep@eits.com
+  body: none
+  auth: inherit
+}
+
+params:query {
+  doctype: User
+  name: sales.rep@eits.com
+}

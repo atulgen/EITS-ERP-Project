@@ -1,0 +1,11 @@
+meta {
+  name: Get logged in user
+  type: http
+  seq: 7
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/frappe.auth.get_logged_user
+  body: none
+  auth: inherit
+}
