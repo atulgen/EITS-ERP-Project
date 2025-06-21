@@ -1,0 +1,25 @@
+meta {
+  name: Create a ToDo
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://eits.local:8000/api/resource/ToDo
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "status": "Open",
+      "priority": "High",
+      "date": "2025-06-23",
+      "allocated_to": "site_inspector@eits.com",
+      "description": "<div class=\"ql-editor read-mode\"><p>Lead 1</p><p>Please check this, this lead is very very important. </p></div>",
+      "reference_type": "Lead",
+      "reference_name": "CRM-LEAD-2025-00001",
+      "assigned_by": "eits@eits.com",
+      "doctype": "ToDo"
+    }
+}

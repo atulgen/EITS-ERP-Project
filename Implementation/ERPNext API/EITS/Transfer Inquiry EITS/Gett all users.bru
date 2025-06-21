@@ -1,0 +1,15 @@
+meta {
+  name: Gett all users
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/User?fields=["name", "email", "full_name"]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  fields: ["name", "email", "full_name"]
+}

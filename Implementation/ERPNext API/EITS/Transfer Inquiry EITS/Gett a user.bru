@@ -1,0 +1,16 @@
+meta {
+  name: Gett a user
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://eits.local:8000/api/resource/User?filters=[["email", "=", "site_inspector@eits.com"]]&fields=["name", "email", "full_name"]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["email", "=", "site_inspector@eits.com"]]
+  fields: ["name", "email", "full_name"]
+}

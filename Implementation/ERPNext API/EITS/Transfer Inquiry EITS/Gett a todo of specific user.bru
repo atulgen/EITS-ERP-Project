@@ -1,0 +1,16 @@
+meta {
+  name: Gett a todo of specific user
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://eits.local:8000/api/resource/ToDo?filters=[["allocated_to", "=", "site_inspector@eits.com"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["allocated_to", "=", "site_inspector@eits.com"]]
+  ~fields: [["name", "owner", "allocated_to", "description"]]
+}
