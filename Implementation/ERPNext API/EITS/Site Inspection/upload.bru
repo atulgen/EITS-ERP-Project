@@ -1,0 +1,24 @@
+meta {
+  name: upload
+  type: http
+  seq: 3
+}
+
+post {
+  url: https://eits.thebigocommunity.org/api/method/upload_file
+  body: multipartForm
+  auth: inherit
+}
+
+headers {
+  Accept: application/json
+  Content-Type: multipart/form-data
+}
+
+body:multipart-form {
+  file: @file()
+}
+
+body:file {
+  file: @file(C:\Users\prata\Downloads\student_sample (2).csv) @contentType(text/csv; charset=utf-8)
+}
