@@ -1,0 +1,16 @@
+meta {
+  name: Gett a user copy
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/User?fields=["name", "email", "full_name"]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  fields: ["name", "email", "full_name"]
+  ~filters: [["email", "=", "site_inspector@eits.com"]]
+}

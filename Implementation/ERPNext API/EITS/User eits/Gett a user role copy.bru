@@ -1,0 +1,15 @@
+meta {
+  name: Gett a user role copy
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.api.get_user_roles
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~filters: [["email", "=", "site_inspector@eits.com"]]
+}
