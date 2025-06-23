@@ -5,7 +5,11 @@ meta {
 }
 
 get {
-  url: http://eits.local:8000/api/resource/User
+  url: http://eits.local:8000/api/resource/User?fields=["name", "roles"]
   body: none
   auth: inherit
+}
+
+params:query {
+  fields: ["name", "roles"]
 }
