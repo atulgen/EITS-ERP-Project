@@ -1,0 +1,25 @@
+Date,Day,Project_Phase,Task_Category,Task_Description,Hours_Spent,Cumulative_Hours,Status,Links,Commits_Notes
+2025-06-02,Monday,Phase 2: Lead Enhancement,Lead Forms,Lead Form missing tabs and 2-column layout mobile view,1.3,1.3,Solved,https://discuss.frappe.io/t/2-column-layout-in-mobile-view-in-lead-form/147953/2?u=atuld | https://tree.taiga.io/project/atulraj-mep-erp/issue/21,Fixed mobile layout issues - forum discussion resolution
+2025-06-03,Tuesday,Phase 2: Lead Enhancement,Dashboard,Dashboard customization error debugging,0.7,2,Solved,https://discuss.frappe.io/t/dashboard-customization-error/147943 | https://discuss.frappe.io/t/error-value-missing-for-workspace-type/147889,Value missing for workspace type resolved
+2025-06-04,Wednesday,Phase 2: Lead Enhancement,Site Inspector,Site inspector research and planning,6,8,In Progress,More detailed address implementation planning
+2025-06-05,Thursday,Phase 1: Foundation,App Development,Custom app installation and visibility issues,0.5,8.5,Solved,https://discuss.frappe.io/t/re-my-newly-created-app-is-not-visible-in-the-log/148168/1,Newly created app visibility in log resolved
+2025-06-06,Friday,Phase 2: Lead Enhancement,Development,Mobile development and guide creation,7,15.5,Complete,Mobile dev commit and report generation
+2025-06-07,Saturday,Phase 2: Lead Enhancement,Documentation,Guide creation and readme updates,6,21.5,Complete,Added comprehensive guides and documentation
+2025-06-09,Monday,Phase 2: Lead Enhancement,Deployment,ERPNext deployment preparation and chores,4,25.5,In Progress,Migration checks and general maintenance
+2025-06-10,Tuesday,Phase 2: Lead Enhancement,Deployment,ERPNext deployment continuation,3,28.5,In Progress,System updates and production setup
+2025-06-11,Wednesday,Phase 2: Lead Enhancement,Workspace,Workspace customization implementation,4,32.5,In Progress,https://tree.taiga.io/project/atulraj-mep-erp/task/42,UI/UX improvements and task management
+2025-06-12,Thursday,Phase 2: Lead Enhancement,EITS Development,Mobile guide creation and logo fixes,2.5,35,Complete,https://discuss.frappe.io/t/how-can-i-change-e-logo-from-entire-website/70208 | https://codewithkarani.com/2021/09/16/setup-erpnext-for-production/,Employee guides and login page logo issues
+2025-06-13,Friday,Phase 2: Lead Enhancement,Styling,CSS loading issue investigation and resolution,5,40,Solved,https://claude.ai/share/32b0cc9f-7def-46c7-9ad9-0131610157e4,Styling conflicts and migration prep work
+2025-06-14,Saturday,Phase 2: Lead Enhancement,Migration,Development to production migration prep,4,44,In Progress,Change deployment preparation
+2025-06-16,Monday,Phase 2: Lead Enhancement,Backend API,Frappe backend API setup and address linking,6,50,Complete,https://discuss.frappe.io/t/erpnext-as-backend-api/138891/4,ERPNext API and EITS specific implementations
+2025-06-17,Tuesday,Phase 2: Lead Enhancement,Integration,API integration with Next.js and new APIs,7,57,Complete,New APIs development and integration
+2025-06-18,Wednesday,Phase 2: Lead Enhancement,Deployment,Dev to prod deployment and new lead data,8,65,Complete,https://tree.taiga.io/project/atulraj-mep-erp/us/89?kanban-status=10240450,New Lead data implementation and feat initialization
+2025-06-19,Thursday,Phase 2: Lead Enhancement,Deployment,React app delivery and Vercel fixes,6,71,Solved,First version of react app delivered
+2025-06-20,Friday,Phase 2: Lead Enhancement,Inquiry System,JobType ProjectUrgency and SiteInspection DocTypes,7.5,78.5,Complete,Added ToDo JobType ProjectUrgency SiteDimension commits
+2025-06-21,Saturday,Phase 2: Lead Enhancement,Site Inspection,Site inspection enhancements and upload functionality,5,83.5,Complete,Site Inspection transfer inquiry and upload file commits
+2025-06-23,Monday,Phase 3: Job Estimation,Form Development,Roles API docker steps and data updates,6.5,90,Complete,Roles API Updated data EstimateBudget DocType commits
+2025-06-24,Tuesday,Phase 3: Job Estimation,Research,Site inspection research meeting and budget estimates,7,97,Complete,Updated Lead Updated BudgetRange estimatebudget commits
+2025-06-25,Wednesday,Phase 3: Job Estimation,Development,SiteDimension Floor Room Item DocType development,6,103,Complete,SiteDimension Floor Room Item commit implementation
+2025-06-26,Thursday,Phase 3: Job Estimation,Job Estimation,Image attachments and site dimension enhancements,8,111,Complete,Site dimension inspection Image attachments multiple images commits
+2025-06-27,Friday,Phase 3: Job Estimation,Leave,Personal Day,0,111,Leave,Rest day - no commits
+2025-06-28,Saturday,Phase 3: Job Estimation,Job Estimation,Adding site inspection data to Job estimation,6,117,In Progress,Ongoing development for estimation integration
