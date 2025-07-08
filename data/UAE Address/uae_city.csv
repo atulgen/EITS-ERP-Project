@@ -1,0 +1,21 @@
+city_name,city_code,arabic_name,emirate,population,postal_code,enabled
+Abu Dhabi,AD001,أبو ظبي,Abu Dhabi,1500000,00000,1
+Al Ain,AD002,العين,Abu Dhabi,800000,17777,1
+Madinat Zayed,AD003,مدينة زايد,Abu Dhabi,45000,18888,1
+Liwa,AD004,ليوا,Abu Dhabi,15000,19999,1
+Ruwais,AD005,الرويس,Abu Dhabi,25000,23333,1
+Dubai,DU001,دبي,Dubai,3500000,00000,1
+Hatta,DU002,حتا,Dubai,12000,11111,1
+Sharjah,SH001,الشارقة,Sharjah,1800000,00000,1
+Kalba,SH002,كلباء,Sharjah,50000,12222,1
+Khor Fakkan,SH003,خور فكان,Sharjah,45000,13333,1
+Dibba Al Hisn,SH004,دبا الحصن,Sharjah,30000,14444,1
+Ajman,AJ001,عجمان,Ajman,540000,00000,1
+Masfout,AJ002,مصفوت,Ajman,5000,15555,1
+Umm Al Quwain,UQ001,أم القيوين,Umm Al Quwain,72000,00000,1
+Falaj Al Mualla,UQ002,فلج المعلا,Umm Al Quwain,8000,16666,1
+Ras Al Khaimah,RAK001,رأس الخيمة,Ras Al Khaimah,400000,00000,1
+Digdaga,RAK002,دقداقة,Ras Al Khaimah,15000,20000,1
+Fujairah,FU001,الفجيرة,Fujairah,250000,00000,1
+Dibba Al Fujairah,FU002,دبا الفجيرة,Fujairah,35000,21111,1
+Al Bidyah,FU003,البدية,Fujairah,8000,22222,1

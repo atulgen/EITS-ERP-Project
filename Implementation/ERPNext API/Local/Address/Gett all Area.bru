@@ -1,0 +1,15 @@
+meta {
+  name: Gett all Area
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://eits.local:8000/api/resource/UAE Area
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~fields: ["name","title"]
+}

@@ -1,0 +1,12 @@
+address_title,address_line_1,address_line_2,building_villa_number,street_name,area,postal_code,po_box,landmark,address_type,gps_coordinates,contact_person,phone_number,email,is_default,enabled
+Burj Khalifa Office,1 Sheikh Mohammed bin Rashid Blvd,Level 148,1,Sheikh Mohammed bin Rashid Boulevard,Downtown Dubai,00000,12345,Near Dubai Mall,Office,25.1972°N 55.2744°E,Ahmad Al Mansoori,+971 4 888 8888,ahmad@company.com,1,1
+Marina Residence,Dubai Marina Walk,Tower A Apt 1205,1205,Dubai Marina Walk,Dubai Marina,00000,67890,Opposite Marina Mall,Home,25.0657°N 55.1398°E,Sara Ahmed,+971 50 123 4567,sara@email.com,0,1
+Business Bay Office,Business Bay Crossing,Office 2301,2301,Business Bay Crossing,Business Bay,00000,11111,Near Dubai Water Canal,Office,25.1888°N 55.2635°E,Mohammed Hassan,+971 4 777 7777,mohammed@business.com,0,1
+Jumeirah Villa,Jumeirah Beach Road,Villa 45,45,Jumeirah Beach Road,Jumeirah,00000,22222,Near Jumeirah Beach,Home,25.2285°N 55.2659°E,Fatima Al Zahra,+971 50 987 6543,fatima@home.com,1,1
+Corniche Apartment,Corniche Road West,Tower B Apt 1501,1501,Corniche Road West,Corniche,00000,33333,Sea view apartment,Home,24.4539°N 54.3773°E,Ali Abdullah,+971 2 666 6666,ali@email.com,1,1
+Al Reem Island Office,Al Reem Island,Gate Tower 3 Floor 25,25,Al Reem Island Central,Al Reem Island,00000,44444,Near Shams Boutik,Office,24.4973°N 54.4095°E,Nora Salem,+971 2 555 5555,nora@office.com,0,1
+Sharjah Warehouse,King Faisal Street,Warehouse Complex Block C,C-15,King Faisal Street,King Faisal Street,00000,55555,Near Sharjah City Centre,Warehouse,25.3463°N 55.4209°E,Khalid Omar,+971 6 444 4444,khalid@warehouse.com,0,1
+Al Majaz Apartment,Al Majaz Waterfront,Building 7 Apt 804,804,Al Majaz Waterfront,Al Majaz,00000,66666,Waterfront view,Home,25.3294°N 55.3928°E,Aisha Mohammad,+971 50 111 2222,aisha@home.com,1,1
+Ajman Marina Office,Ajman Marina,Tower 2 Office 1205,1205,Ajman Marina Boulevard,Ajman Marina,00000,77777,Marina view office,Office,25.4052°N 55.4851°E,Omar Rashid,+971 6 333 3333,omar@marina.com,0,1
+RAK Industrial,Al Jeer Industrial Area,Factory Building 12,12,Industrial Road,Al Jeer,00000,88888,Near RAK Ceramics,Other,25.7889°N 55.9485°E,Hassan Ali,+971 7 222 2222,hassan@factory.com,0,1
+Fujairah Port Office,Fujairah Port,Port Authority Building,1,Port Road,Al Fujairah Free Zone,00000,99999,Near Port Authority,Office,25.1156°N 56.3424°E,Mariam Saeed,+971 9 111 1111,mariam@port.com,0,1

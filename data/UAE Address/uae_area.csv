@@ -1,0 +1,64 @@
+area_name,area_code,arabic_name,city,area_type,postal_code,enabled
+Corniche,AD001-001,الكورنيش,Abu Dhabi,Mixed,00000,1
+Al Reem Island,AD001-002,جزيرة الريم,Abu Dhabi,Residential,00000,1
+Saadiyat Island,AD001-003,جزيرة السعديات,Abu Dhabi,Mixed,00000,1
+Yas Island,AD001-004,جزيرة ياس,Abu Dhabi,Mixed,00000,1
+Al Khalidiyah,AD001-005,الخالدية,Abu Dhabi,Residential,00000,1
+Al Zahiyah,AD001-006,الظاهية,Abu Dhabi,Commercial,00000,1
+Electra,AD001-007,إلكترا,Abu Dhabi,Residential,00000,1
+Al Karamah,AD001-008,الكرامة,Abu Dhabi,Residential,00000,1
+Marina Mall,AD001-009,مارينا مول,Abu Dhabi,Commercial,00000,1
+Zayed Sports City,AD001-010,مدينة زايد الرياضية,Abu Dhabi,Mixed,00000,1
+Al Jimi,AD002-001,الجيمي,Al Ain,Residential,17777,1
+Al Ain Mall,AD002-002,العين مول,Al Ain,Commercial,17777,1
+Hili,AD002-003,هيلي,Al Ain,Residential,17777,1
+Al Towayya,AD002-004,الطوية,Al Ain,Residential,17777,1
+Al Khabisi,AD002-005,الخبيصي,Al Ain,Residential,17777,1
+Downtown Dubai,DU001-001,وسط مدينة دبي,Dubai,Mixed,00000,1
+Dubai Marina,DU001-002,مرسى دبي,Dubai,Residential,00000,1
+Business Bay,DU001-003,الخليج التجاري,Dubai,Commercial,00000,1
+Jumeirah,DU001-004,جميرا,Dubai,Residential,00000,1
+Deira,DU001-005,ديرة,Dubai,Mixed,00000,1
+Bur Dubai,DU001-006,بر دبي,Dubai,Mixed,00000,1
+Dubai International City,DU001-007,مدينة دبي الدولية,Dubai,Residential,00000,1
+Dubai Investment Park,DU001-008,حديقة دبي للاستثمار,Dubai,Mixed,00000,1
+Dubai Sports City,DU001-009,مدينة دبي الرياضية,Dubai,Mixed,00000,1
+Jumeirah Lake Towers,DU001-010,أبراج بحيرة جميرا,Dubai,Mixed,00000,1
+Palm Jumeirah,DU001-011,نخلة جميرا,Dubai,Residential,00000,1
+Dubai Hills Estate,DU001-012,دبي هيلز استيت,Dubai,Residential,00000,1
+City Walk,DU001-013,سيتي ووك,Dubai,Mixed,00000,1
+Dubai Festival City,DU001-014,مدينة دبي فستيفال,Dubai,Mixed,00000,1
+Dubai Silicon Oasis,DU001-015,واحة دبي للسيليكون,Dubai,Mixed,00000,1
+Al Barsha,DU001-016,البرشاء,Dubai,Residential,00000,1
+Dubai South,DU001-017,دبي الجنوب,Dubai,Mixed,00000,1
+Al Satwa,DU001-018,السطوة,Dubai,Residential,00000,1
+Karama,DU001-019,كرامة,Dubai,Residential,00000,1
+Dubai Creek Harbour,DU001-020,مرفأ خور دبي,Dubai,Mixed,00000,1
+King Faisal Street,SH001-001,شارع الملك فيصل,Sharjah,Commercial,00000,1
+Al Qasba,SH001-002,القصباء,Sharjah,Mixed,00000,1
+Al Majaz,SH001-003,المجاز,Sharjah,Residential,00000,1
+Al Nahda,SH001-004,النهدة,Sharjah,Residential,00000,1
+Al Taawun,SH001-005,التعاون,Sharjah,Residential,00000,1
+Industrial Area,SH001-006,المنطقة الصناعية,Sharjah,Industrial,00000,1
+Al Qasimia,SH001-007,القاسمية,Sharjah,Residential,00000,1
+Al Rolla,SH001-008,الرولة,Sharjah,Commercial,00000,1
+Al Jubail,SH001-009,الجبيل,Sharjah,Mixed,00000,1
+University City,SH001-010,مدينة الجامعة,Sharjah,Mixed,00000,1
+Al Nuaimia,AJ001-001,النعيمية,Ajman,Residential,00000,1
+Al Rashidiya,AJ001-002,الراشدية,Ajman,Residential,00000,1
+Al Jurf,AJ001-003,الجرف,Ajman,Residential,00000,1
+Ajman Marina,AJ001-004,مرسى عجمان,Ajman,Mixed,00000,1
+Al Hamidiyah,AJ001-005,الحميدية,Ajman,Residential,00000,1
+Al Rawda,UQ001-001,الروضة,Umm Al Quwain,Residential,00000,1
+Al Salamah,UQ001-002,السلامة,Umm Al Quwain,Residential,00000,1
+Old Town,UQ001-003,المدينة القديمة,Umm Al Quwain,Mixed,00000,1
+Al Nakheel,RAK001-001,النخيل,Ras Al Khaimah,Residential,00000,1
+Al Qusaidat,RAK001-002,القصيدات,Ras Al Khaimah,Residential,00000,1
+Al Hamra,RAK001-003,الحمراء,Ras Al Khaimah,Mixed,00000,1
+Al Jeer,RAK001-004,الجير,Ras Al Khaimah,Industrial,00000,1
+Al Mamoura,RAK001-005,المعمورة,Ras Al Khaimah,Residential,00000,1
+Al Faseel,FU001-001,الفصيل,Fujairah,Residential,00000,1
+Al Gurfa,FU001-002,الغرفة,Fujairah,Residential,00000,1
+Sakamkam,FU001-003,سكمكم,Fujairah,Mixed,00000,1
+Al Fujairah Free Zone,FU001-004,المنطقة الحرة بالفجيرة,Fujairah,Commercial,00000,1
+Corniche,FU001-005,الكورنيش,Fujairah,Mixed,00000,1
