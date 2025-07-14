@@ -1,0 +1,15 @@
+meta {
+  name: Gett all Job Types
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/JobType?fields=["name","title"]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  fields: ["name","title"]
+}

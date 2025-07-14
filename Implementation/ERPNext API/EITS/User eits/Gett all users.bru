@@ -5,11 +5,11 @@ meta {
 }
 
 get {
-  url: http://eits.local:8000/api/resource/User?fields=["name", "roles"]
+  url: https://eits.thebigocommunity.org/api/resource/User
   body: none
   auth: inherit
 }
 
 params:query {
-  fields: ["name", "roles"]
+  ~fields: ["name", "role"]
 }

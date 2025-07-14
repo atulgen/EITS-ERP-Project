@@ -27,5 +27,29 @@
         - Employee Data
 
 
-    
+
+
+6. Email
+
+
+---
+
+
+- ERP Links:
+
+- ERP
+    - https://eits.thebigocommunity.org
+
+
+
+
+- Frontend
+    - https://eits-erp.vercel.app/login
+
+
+
+
+
+
+
 
