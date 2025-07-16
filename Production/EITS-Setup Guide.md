@@ -1,55 +1,139 @@
-1. Bench 
-2. Site
-    - eits.thebigocommunity.org
-3. Install App
-    - ERPNext
-    - hrms
-    - Eits_app
-        - bench get-app https://github.com/atulgen/eits_app
-4. CORS Enabling
-    - Config files
+# ERP System Setup Guide
 
-5. Data
-    - Lead
-        - Job Type
-        - Project Urgency
-        - Estimate Budget
-        - UAE Address
-            - UAE Emirate
-            - UAE City
-            - UAE Area
+## Overview
+This guide provides step-by-step instructions for setting up the ERP system with ERPNext, HRMS, and custom applications.
 
-    - Users
+## Prerequisites
+- Bench framework installed and configured
+- Administrative access to the server
+- GitHub access for custom app installation
 
-    - Employee
-        - Department
-        - Designation
-        - Employee Data
+## 1. Environment Setup
 
+### 1.1 Bench Configuration
+- Ensure Bench is properly installed and operational
+- Verify site configuration and permissions
 
+### 1.2 Site Creation
+- **Site URL**: `eits.thebigocommunity.org`
+- Configure site-specific settings and database connections
 
+## 2. Application Installation
 
-6. Email
+### 2.1 Core Applications
+Install the following applications in sequence:
 
+1. **ERPNext**
+   - Install the main ERP application
+   - Configure basic settings and permissions
 
----
+2. **HRMS (Human Resource Management System)**
+   - Install HRMS module for employee management
+   - Configure HR-related workflows
 
+3. **Custom Eits Application**
+   - Install custom application from GitHub repository
+   - Command: `bench get-app https://github.com/atulgen/eits_app`
+   - Follow installation prompts and dependency resolution
 
-- ERP Links:
+## 3. System Configuration
 
-- ERP
-    - https://eits.thebigocommunity.org
+### 3.1 CORS (Cross-Origin Resource Sharing) Configuration
+- Locate and modify configuration files
+- Enable CORS for frontend-backend communication
+- Configure allowed origins and methods
+- Test CORS functionality
 
+### 3.2 Security Settings
+- Configure authentication methods
+- Set up user permissions and roles
+- Implement security protocols
 
+## 4. Data Setup and Configuration
 
+### 4.1 Lead Management
+- Configure lead capture forms
+- Set up lead assignment rules
+- Define lead status workflows
+- **Job Type**: Configure available job categories
+- **Project Urgency**: Set urgency levels and priorities
+- **Estimate Budget**: Configure budget templates and approval workflows
 
-- Frontend
-    - https://eits-erp.vercel.app/login
+### 4.3 Geographic Data (UAE-specific)
+Configure UAE location hierarchy:
+- **UAE Address**: Set up address formats
+- **UAE Emirate**: Configure emirate listings
+- **UAE City**: Set up city databases
+- **UAE Area**: Configure area/district mappings
 
+### 4.4 User Management
+- **Users**: Create and configure user accounts
+- **Employee**: Set up employee profiles and records
+- **Department**: Configure organizational departments
+- **Designation**: Set up job titles and positions
+- **Employee Data**: Import or configure employee information
 
+### 4.5 Inventory Management
+- **Item**: Configure product/service items
+- **Item Group**: Set up item categorization
+- **UOM (Unit of Measure)**: Configure measurement units
 
+## 5. Email Configuration
 
+### 5.1 Email Server Setup
+- Configure SMTP settings
+- Set up email templates
+- Test email functionality
+- Configure automated notifications
 
+### 5.2 Integration Testing
+- Test email workflows
+- Verify notification systems
+- Configure email routing rules
 
+## 6. System Access Points
 
+### 6.1 ERP Backend Access
+- **URL**: `https://eits.thebigocommunity.org`
+- Administrative and user access portal
+- Full ERP functionality available
 
+### 6.2 Frontend Application
+- **URL**: `https://eits-erp.vercel.app/login`
+- User-friendly interface for common operations
+- Mobile-responsive design
+
+## 7. Post-Installation Tasks
+
+### 7.1 System Testing
+- Conduct comprehensive system testing
+- Verify all modules are functioning correctly
+- Test integration between applications
+
+### 7.2 User Training
+- Prepare user documentation
+- Conduct training sessions
+- Set up support procedures
+
+### 7.3 Backup and Maintenance
+- Configure automated backups
+- Set up monitoring and alerting
+- Establish maintenance schedules
+
+## 8. Troubleshooting
+
+### 8.1 Common Issues
+- Installation errors and resolutions
+- CORS configuration problems
+- Database connection issues
+
+### 8.2 Support Resources
+- Documentation references
+- Community forums
+- Technical support contacts
+
+## Notes
+- Ensure all applications are compatible with the current Bench version
+- Regular updates and security patches should be applied
+- Monitor system performance and optimize as needed
+- Maintain regular backups of all data and configurations

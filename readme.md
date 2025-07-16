@@ -8,16 +8,12 @@
    - 3.1 [Customer Relationship Management (CRM)](#1-customer-relationship-management-crm)
    - 3.2 [Enterprise Resource Planning (ERP)](#2-enterprise-resource-planning-erp)
    - 3.3 [Operational Features](#3-operational-features)
-4. [Implementation Scope](#implementation-scope)
-5. [Expected Business Benefits](#expected-business-benefits)
-6. [Success Metrics](#success-metrics)
-7. [Implementation](./Implementation/readme.md)
-8. [Requirement Mapping](./Requirement%20Mapping/readme.md)
-9. [Customization](./Custoimization/readme.md)
-10. [Issues](./Issues/readme.md)
-
-
-- EITS App [Repository](https://codeberg.org/atul_raj/eits-erp-app)
+4. [Expected Business Benefits](#expected-business-benefits)
+5. [Success Metrics](#success-metrics)
+6. [Implementation](./Implementation/readme.md)
+7. [Requirement Mapping](./Requirement%20Mapping/readme.md)
+8. [Customization](./Custoimization/readme.md)
+9. [Issues](./Issues/readme.md)
 ---
 
 ## Project Overview
@@ -165,28 +161,6 @@ The company currently handles complex projects like the aluminum gate work for J
   - Assembly instructions
   - Cost breakdown analysis
 
-## Implementation Scope
-
-### Phase 1: Core CRM Implementation
-
-- Lead capture and management system
-- Customer database creation
-- Basic quotation generation
-- Communication tools integration
-
-### Phase 2: ERP Integration
-
-- Inventory management system
-- Financial module implementation
-- Project tracking capabilities
-- Reporting and analytics
-
-### Phase 3: Advanced Features
-
-- Mobile application for field teams
-- Advanced analytics and forecasting
-- Third-party integrations
-- Automation workflows
 
 ## Expected Business Benefits
 
