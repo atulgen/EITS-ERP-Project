@@ -10,7 +10,7 @@
 #### Issues with Tally
 
 - Not all ledgers are exported in excel files
-- XML is hard to read for other applications. 
+- XML is hard to read for other applications.
 
 
 ## XML to CSV parser
@@ -37,8 +37,6 @@
 
 - Migration Tool
     - https://github.com/laxmantandon/express_tally
-
-
 
 
 

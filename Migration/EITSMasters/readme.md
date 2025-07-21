@@ -1,7 +1,7 @@
 ## Input file details:
 
 - Name: EITSMaster.xml
-- Zize: 57mb
+- Size: 57mb
 
 - Output csv data included:
   1. tally_all_data (2).csv
