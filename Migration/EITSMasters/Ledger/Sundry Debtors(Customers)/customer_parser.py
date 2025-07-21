@@ -84,10 +84,10 @@ def process_sundry_creditor(file_path):
         emails.append(email)
     
     result_df = pd.DataFrame({
-        'Supplier Name': suppliers,
-        'Address': addresses,
-        'Mobile Number': mobile_numbers,
-        'Email': emails
+        'Customer Name': suppliers,
+        'Primary Address': addresses,
+        'Mobile No': mobile_numbers,
+        'Email ID': emails
     })
     
     return result_df
