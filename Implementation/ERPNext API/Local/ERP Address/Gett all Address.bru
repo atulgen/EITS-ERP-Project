@@ -1,0 +1,16 @@
+meta {
+  name: Gett all Address
+  type: http
+  seq: 10
+}
+
+get {
+  url: http://eits.local:8000/api/resource/Address?fields=["name", "address_title"]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  fields: ["name", "address_title"]
+  ~filters: [["allocated_to", "=", "site_inspector@eits.com"]]
+}
