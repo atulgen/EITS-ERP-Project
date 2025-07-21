@@ -87,7 +87,7 @@ def process_sundry_creditor(file_path):
         'Customer Name': suppliers,
         'Primary Address': addresses,
         'Mobile No': mobile_numbers,
-        'Email ID': emails
+        'Email Id': emails
     })
     
     return result_df
