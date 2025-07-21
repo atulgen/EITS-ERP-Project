@@ -26,10 +26,10 @@
 3. **Cost Centre**
 4. **Currency**
 5. **Godown**
-6. **Group**
+6. [**Group**](./Group/readme.md)
 7. **Income Tax Classification**
 8. **Income Tax Slab**
-9. **Ledger**
+9. [**Ledger**](./Ledger/readme.md)
 10. **Stock Group**
 11. **Stock Item**
 12. **Tax Unit**
