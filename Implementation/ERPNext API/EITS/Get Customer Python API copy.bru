@@ -1,0 +1,17 @@
+meta {
+  name: Get Customer Python API copy
+  type: http
+  seq: 13
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.customer_search.search_customers?mobile_no=67
+  body: json
+  auth: inherit
+}
+
+params:query {
+  mobile_no: 67
+  ~customer_name: ap-15
+  ~email_id: 
+}

@@ -1,17 +1,17 @@
 meta {
   name: Get Cusotmer
   type: http
-  seq: 19
+  seq: 21
 }
 
 get {
-  url: http://eits.local:8000/api/resource/Customer?filters=[["mobile_no","like","%971%"]]&fields=["name", "mobile_no"]
+  url: http://eits.local:8000/api/resource/Customer?filters=[["mobile_no","like","%97156%"]]&fields=["name", "mobile_no"]
   body: json
   auth: inherit
 }
 
 params:query {
-  filters: [["mobile_no","like","%971%"]]
+  filters: [["mobile_no","like","�156%"]]
   fields: ["name", "mobile_no"]
   ~filters: [["Customer","customer_name","like","%rand%"]]
   ~mobile: 05

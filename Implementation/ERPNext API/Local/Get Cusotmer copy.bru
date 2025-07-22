@@ -1,0 +1,18 @@
+meta {
+  name: Get Cusotmer copy
+  type: http
+  seq: 11
+}
+
+get {
+  url: http://eits.local:8000/api/resource/Customer/Alovrada 4, Arabian Ranches, V44
+  body: json
+  auth: inherit
+}
+
+params:query {
+  ~filters: [["Customer","customer_name","like","%rand%"]]
+  ~mobile: 05
+  ~name: 
+  ~email: 
+}
