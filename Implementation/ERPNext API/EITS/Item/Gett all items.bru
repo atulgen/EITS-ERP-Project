@@ -1,0 +1,15 @@
+meta {
+  name: Gett all items
+  type: http
+  seq: 9
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/Item?filters=[["item_group", "=", "Veneer Pressing Work"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["item_group", "=", "Veneer Pressing Work"]]
+}
