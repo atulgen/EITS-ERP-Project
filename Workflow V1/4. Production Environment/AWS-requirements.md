@@ -1,5 +1,3 @@
-Certainly! Here are the **minimum requirements** for installing **ERPNext** on an **AWS EC2 instance**:
-
 ### **1. Hardware Requirements**
 
 | Component   | Minimum Requirement | Recommended for Production |
