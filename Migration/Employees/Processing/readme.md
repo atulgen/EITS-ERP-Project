@@ -41,7 +41,7 @@ Emirates ID Number
 Emirates ID Expiry	
 Column6 	
 Assignment Function	
-Existing User Email	
+Existing User Email
 Mobile No.	
 EITS Given Name	
 New User Email	
@@ -50,3 +50,10 @@ Password
 Remarks	
 Recovery Email	
 Mob no. used
+
+
+---
+
+Okay, so Employees will be using the ERP too, so we have to create user for the Employee which are mapped according to the new email address provided. 
+
+
