@@ -1,0 +1,17 @@
+meta {
+  name: Get Supplier Python API
+  type: http
+  seq: 10
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.supplier_search.search_suppliers?supplier_name=Roya
+  body: json
+  auth: inherit
+}
+
+params:query {
+  supplier_name: Roya
+  ~mobile_no: 67
+  ~email_id: 
+}
