@@ -157,6 +157,17 @@ The CRM implementation follows a systematic approach initiated by Sales Represen
 6. **Customer Onboarding**: Post-sale relationship management
 7. **Ongoing Relationship Management**: Continuous customer engagement
 
+
+## Make sure to check :
+
+![alt text](image-8.png)
+
+### Check : 
+
+Allow Lead Duplication based on Emails
+
+
+
 ## Next Steps
 
 1. Configure user roles and permissions
