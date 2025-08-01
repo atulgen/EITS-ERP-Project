@@ -1,0 +1,17 @@
+meta {
+  name: Get Area Python API copy
+  type: http
+  seq: 13
+}
+
+get {
+  url: http://eits.local:8000/api/method/eits_app.area_search.search_uae_areas?area_name=area
+  body: json
+  auth: inherit
+}
+
+params:query {
+  area_name: area
+  ~mobile_no: 67
+  ~email_id: 
+}
