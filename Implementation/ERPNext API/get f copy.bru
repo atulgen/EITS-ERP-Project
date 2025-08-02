@@ -1,0 +1,16 @@
+meta {
+  name: get f copy
+  type: http
+  seq: 6
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/User Settings?filters=[["user","=","22adiiv@gmail.com"]]&fields=["user","first_password"]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["user","=","22adiiv@gmail.com"]]
+  fields: ["user","first_password"]
+}

@@ -1,0 +1,16 @@
+meta {
+  name: get f
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://eits.local:8000/api/resource/User Settings?filters=[["user","=","22adiiv@gmail.com"]]&fields=["user","first_password"]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["user","=","22adiiv@gmail.com"]]
+  fields: ["user","first_password"]
+}

@@ -1,0 +1,19 @@
+meta {
+  name: get logged in
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://eits.local:8000/api/method/login
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "usr": "22adiiv@gmail.com",
+    "pwd": "22adiiv@gmail"
+  }
+  
+}

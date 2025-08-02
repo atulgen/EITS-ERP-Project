@@ -1,0 +1,19 @@
+meta {
+  name: get issue details
+  type: http
+  seq: 12
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/Issue/?filters=[["customer","=","22adiiv@gmail.com"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["customer","=","22adiiv@gmail.com"]]
+}
+
+settings {
+  encodeUrl: true
+}

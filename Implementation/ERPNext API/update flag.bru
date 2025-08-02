@@ -1,0 +1,17 @@
+meta {
+  name: update flag
+  type: http
+  seq: 8
+}
+
+put {
+  url: http://eits.local:8000/api/resource/User Settings/22adiiv@gmail.com
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "first_password":0
+  }
+}
