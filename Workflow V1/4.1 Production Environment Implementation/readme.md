@@ -67,3 +67,50 @@ created frappe-bench
 
 
 
+
+
+EC2 Space before bench:
+
+```bash
+frappe@ip-172-31-13-85:~$ df -h
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/root        6.8G  4.7G  2.1G  70% /
+tmpfs            458M     0  458M   0% /dev/shm
+tmpfs            183M  944K  182M   1% /run
+tmpfs            5.0M     0  5.0M   0% /run/lock
+efivarfs         128K  3.8K  120K   4% /sys/firmware/efi/efivars
+/dev/nvme0n1p16  881M   86M  734M  11% /boot
+/dev/nvme0n1p15  105M  6.2M   99M   6% /boot/efi
+tmpfs             92M   20K   92M   1% /run/user/1000
+```
+
+
+## Remote database: 
+
+```json
+ "db_host": "193.203.163.151",
+"rds_db": 1
+```
+
+
+gennextit.com
+
+fkYU57LNx1[e9B+C
+
+mysql -h gennextit.com -u gennexti_eitserp_prod -p
+
+
+Database user: gennexti_eitserp_prod
+Database password: fkYU57LNx1[e9B+C
+Host: gennextit.com
+
+
+
+
+
+bench new-site erp.eitsdubai.com --db-host gennextit.com --db-port 3306 --db-root-username gennexti_eitserp_prod
+
+
+
+- Needs more priviledges
+
