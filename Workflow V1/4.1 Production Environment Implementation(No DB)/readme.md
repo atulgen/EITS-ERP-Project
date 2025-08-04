@@ -57,7 +57,6 @@ scp -i /path/to/your-key-file.pem /path/to/local/file username@your-ec2-public-i
 sudo sh bash-script-v2.sh
 ```
 
-Admin password: my4v10lMSyUJD1f@YwzGkJ
 
 
 
