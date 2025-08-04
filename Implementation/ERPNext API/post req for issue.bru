@@ -1,0 +1,27 @@
+meta {
+  name: post req for issue
+  type: http
+  seq: 16
+}
+
+post {
+  url: https://eits.thebigocommunity.org/api/resource/Issue
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "subject": "Issue 3",
+    "customer": "22adiiv@gmail.com",
+      "status": "Open",
+      "priority": "High",
+      "description": "testing",
+      "opening_date": "2025-08-02",
+      "opening_time": "8:50:36.521753"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
