@@ -5,13 +5,17 @@ meta {
 }
 
 get {
-  url: http://eits.local:8000/api/method/eits_app.customer_search.search_customers?customer_name=a
+  url: http://eits.local:8000/api/method/eits_app.site_address_search.search_site_addresses?custom_property_number=123&custom_street_name=12
   body: none
   auth: inherit
 }
 
 params:query {
-  customer_name: a
+  custom_property_number: 123
+  custom_street_name: 12
+  ~custom_emirate: RAS
+  ~custom_area: jume
+  ~custom_community: jume
 }
 
 settings {
