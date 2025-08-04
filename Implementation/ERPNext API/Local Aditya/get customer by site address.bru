@@ -1,0 +1,19 @@
+meta {
+  name: get customer by site address
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://eits.local:8000/api/method/eits_app.customer_search.search_customers?customer_name=a
+  body: none
+  auth: inherit
+}
+
+params:query {
+  customer_name: a
+}
+
+settings {
+  encodeUrl: true
+}
