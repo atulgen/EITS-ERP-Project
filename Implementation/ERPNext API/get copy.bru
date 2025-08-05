@@ -1,0 +1,17 @@
+meta {
+  name: get copy
+  type: http
+  seq: 11
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/User/22adiiv@gmail.com
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "new_password": "EITS@1234"
+  }
+}

@@ -1,0 +1,17 @@
+meta {
+  name: get
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://eits.local:8000/api/resource/User/22adiiv@gmail.com
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "new_password": "EITS@1234"
+  }
+}
