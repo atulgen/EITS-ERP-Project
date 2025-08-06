@@ -1,0 +1,15 @@
+meta {
+  name: Gett all Property Category
+  type: http
+  seq: 10
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/property Category
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~fields: ["name","title"]
+}
