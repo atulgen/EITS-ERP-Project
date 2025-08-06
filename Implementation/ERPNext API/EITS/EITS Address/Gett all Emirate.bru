@@ -1,0 +1,15 @@
+meta {
+  name: Gett all Emirate
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/UAE Emirate
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~fields: ["name","title"]
+}
