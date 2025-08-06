@@ -1,0 +1,27 @@
+meta {
+  name: get customer and site address from search
+  type: http
+  seq: 7
+}
+
+get {
+  url: http://eits.local:8000/api/method/eits_app.site_address_search.search_site_addresses?custom_emirate=abu dhabi&custom_area=islan
+  body: none
+  auth: inherit
+}
+
+params:query {
+  custom_emirate: abu dhabi
+  custom_area: islan
+  ~custom_customer_email: Aditya@gmail.com
+  Aditya
+  ~custom_street_name: 
+  ~custom_property_number: 
+  ~custom_customer_phone_number: 987654321
+  ~custom_lead_phone_number: 
+  ~custom_lead_email: 
+}
+
+settings {
+  encodeUrl: true
+}
