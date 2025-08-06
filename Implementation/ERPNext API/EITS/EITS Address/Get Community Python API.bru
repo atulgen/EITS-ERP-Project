@@ -1,0 +1,16 @@
+meta {
+  name: Get Community Python API
+  type: http
+  seq: 11
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.community_search.search_uae_communities?uae_area=Ajman Areas&community_name=marina
+  body: json
+  auth: inherit
+}
+
+params:query {
+  uae_area: Ajman Areas
+  community_name: marina
+}
