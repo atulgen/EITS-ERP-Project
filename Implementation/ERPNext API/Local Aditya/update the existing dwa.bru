@@ -1,0 +1,68 @@
+meta {
+  name: update the existing dwa
+  type: http
+  seq: 9
+}
+
+put {
+  url: http://eits.local:8000/api/resource/Daily Work Allocation/DWA-250807-210
+  body: json
+  auth: inherit
+}
+
+params:query {
+  ~filters: [["custom_employeee_nam","=","BONIFACE WATHOME MUTUA"]]
+}
+
+body:json {
+  {
+    "data": {
+      "name": "DWA-250807-210",
+      "owner": "Administrator",
+      "creation": "2025-08-07 15:27:36.853372",
+      "modified": "2025-08-07 15:29:26.299670",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "employee_name": "HR-EMP-00040",
+      "custom_employeee_name": "RAUKI KUMAR",
+      "date": "2025-08-07",
+      "doctype": "Daily Work Allocation",
+      "custom_work_allocation": [
+        {
+          "name": "dd89dv0g27",
+          "owner": "Administrator",
+          "creation": "2025-08-07 15:27:36.853372",
+          "modified": "2025-08-07 15:29:26.299670",
+          "modified_by": "Administrator",
+          "docstatus": 0,
+          "idx": 1,
+          "work_title": "aditya ",
+          "work_description": "New site brunoaaddress for rauki",
+          "expected_start_date": "18:00:00",
+          "expected_time_in_hours": 2,
+          "end_time": "16:00:00",
+          "parent": "DWA-250807-210",
+          "parentfield": "custom_work_allocation",
+          "parenttype": "Daily Work Allocation",
+          "doctype": "Work"
+        },
+        {
+          "work_title": "verma ",
+          "work_description": "Nedsfasgasggasw site brunoaaddress for rauki",
+          "expected_start_date": "20:00:00",
+          "expected_time_in_hours": 2,
+          "end_time": "16:00:00",
+          "parent": "DWA-250807-210",
+          "parentfield": "custom_work_allocation",
+          "parenttype": "Daily Work Allocation",
+          "doctype": "Work"
+        }
+      ]
+    }
+  }
+}
+
+settings {
+  encodeUrl: true
+}

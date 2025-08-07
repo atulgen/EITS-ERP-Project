@@ -4,12 +4,26 @@ meta {
   seq: 6
 }
 
-get {
-  url: https://eits.thebigocommunity.org/api/resource/Address?filters=[["Dynamic Link","link_doctype","=","Lead"],["Dynamic Link","link_name","=","CRM-LEAD-2025-00005"]]
-  body: none
+post {
+  url: http://eits.local:8000/api/resource/Daily Work Allocation
+  body: json
   auth: inherit
 }
 
-params:query {
-  filters: [["Dynamic Link","link_doctype","=","Lead"],["Dynamic Link","link_name","=","CRM-LEAD-2025-00005"]]
+body:json {
+  {
+    "employee_name": "HR-EMP-00036",
+    "custom_employeee_name": "BONIFACE WATHOME MUTUA",
+    "date": "2025-08-07",
+   "custom_work_allocation": [
+        {
+          "project_title": "P25071123-ADI-IND-TAP",
+          "work_title": "BRUNO ",
+          "work_description": "BRUNO",
+          "expected_start_date": "15 :00:00",
+          "expected_time_in_hours": 2
+        }
+  
+      ]
+  }
 }

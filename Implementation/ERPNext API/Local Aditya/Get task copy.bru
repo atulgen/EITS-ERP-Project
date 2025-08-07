@@ -1,0 +1,19 @@
+meta {
+  name: Get task copy
+  type: http
+  seq: 8
+}
+
+get {
+  url: http://eits.local:8000/api/resource/Daily Work Allocation/DWA-250807-210
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~filters: [["custom_employeee_nam","=","BONIFACE WATHOME MUTUA"]]
+}
+
+settings {
+  encodeUrl: true
+}

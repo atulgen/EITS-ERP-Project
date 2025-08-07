@@ -5,13 +5,14 @@ meta {
 }
 
 get {
-  url: http://eits.local:8000/api/method/eits_app.site_address_search.search_site_addresses?custom_customer_phone_number=971
+  url: https://eits.thebigocommunity.org/api/method/eits_app.site_address_search.search_site_addresses?custom_lead_customer_name=amit
   body: none
   auth: inherit
 }
 
 params:query {
-  custom_customer_phone_number: 971
+  custom_lead_customer_name: amit
+  ~custom_customer_phone_number: 971
   ~custom_emirate: shar
   ~custom_area: island
   ~custom_property_number: 123
@@ -20,7 +21,6 @@ params:query {
   ~custom_customer_email: 987654213
   ~custom_lead_phone_number: 9
   ~customer_name: Ak
-  ~custom_lead_customer_name: ak
 }
 
 settings {

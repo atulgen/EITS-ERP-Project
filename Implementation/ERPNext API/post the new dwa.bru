@@ -1,0 +1,37 @@
+meta {
+  name: post the new dwa
+  type: http
+  seq: 20
+}
+
+post {
+  url: http://eits.local:8000/api/resource/Daily Work Allocation
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    
+      "employee_name": "HR-EMP-00040",
+      "custom_employeee_name": "RAUKI KUMAR",
+      "date": "2025-08-07",
+    
+      "custom_work_allocation": [
+        {
+          "work_title": "task from buro ",
+          "work_description": "New site brunoaaddress for rauki",
+          "expected_start_date": "18:00:00",
+          "expected_time_in_hours": 2,
+          "end_time": "16:00:00"
+          
+        }
+        
+      ]
+    }
+  
+}
+
+settings {
+  encodeUrl: true
+}
