@@ -1,0 +1,15 @@
+meta {
+  name: Gett a Community
+  type: http
+  seq: 8
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/UAE Community/Al Bateen
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~fields: ["name","title"]
+}

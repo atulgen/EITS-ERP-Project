@@ -5,12 +5,12 @@ meta {
 }
 
 get {
-  url: http://eits.local:8000/api/resource/Address?fields=["name", "address_title"]
+  url: http://eits.local:8000/api/resource/Address/Test 2 Title-Billing
   body: none
   auth: inherit
 }
 
 params:query {
-  fields: ["name", "address_title"]
+  ~fields: ["name", "address_title"]
   ~filters: [["allocated_to", "=", "site_inspector@eits.com"]]
 }

@@ -1,0 +1,18 @@
+meta {
+  name: Get Area Python API copy copy
+  type: http
+  seq: 6
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.area_search.search_uae_areas?emirate=dubai
+  body: json
+  auth: inherit
+}
+
+params:query {
+  emirate: dubai
+  ~area_name: parkl
+  ~mobile_no: 67
+  ~email_id: 
+}

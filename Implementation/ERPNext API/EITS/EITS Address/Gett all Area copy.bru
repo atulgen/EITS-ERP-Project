@@ -1,0 +1,16 @@
+meta {
+  name: Gett all Area copy
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/UAE Area?filters=[["emirate", "=", "Abu Dhabi"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["emirate", "=", "Abu Dhabi"]]
+  ~fields: ["name","title"]
+}
