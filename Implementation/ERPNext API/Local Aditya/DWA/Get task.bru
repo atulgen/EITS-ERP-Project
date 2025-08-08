@@ -1,0 +1,20 @@
+meta {
+  name: Get task
+  type: http
+  seq: 10
+}
+
+get {
+  url: http://eits.local:8000/api/resource/Daily Work Allocation?filters=[["custom_employeee_name","=","rauki kumar"],["date","=","2025-08-07"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["custom_employeee_name","=","rauki kumar"],["date","=","2025-08-07"]]
+  ~fields: ["custom_work_allocation"]
+}
+
+settings {
+  encodeUrl: true
+}

@@ -1,0 +1,19 @@
+meta {
+  name: get customer
+  type: http
+  seq: 19
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.site_address_search.search_site_addresses?custom_lead_customer_name=a
+  body: none
+  auth: inherit
+}
+
+params:query {
+  custom_lead_customer_name: a
+}
+
+settings {
+  encodeUrl: true
+}
