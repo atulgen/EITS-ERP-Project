@@ -1,0 +1,19 @@
+meta {
+  name: get employee availability
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://eits.local:8000/api/method/eits_app.inspector_availability.get_employee_availability?date=2025-08-08
+  body: none
+  auth: inherit
+}
+
+params:query {
+  date: 2025-08-08
+}
+
+settings {
+  encodeUrl: true
+}
