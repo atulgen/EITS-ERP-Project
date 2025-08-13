@@ -1,0 +1,19 @@
+meta {
+  name: Get a DWA
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/Daily Work Allocation/DWA-250811-147
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~fields: ["name", "date", "assigned_to"]
+}
+
+settings {
+  encodeUrl: true
+}

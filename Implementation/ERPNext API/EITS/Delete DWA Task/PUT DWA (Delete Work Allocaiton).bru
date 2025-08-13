@@ -1,0 +1,25 @@
+meta {
+  name: PUT DWA (Delete Work Allocaiton)
+  type: http
+  seq: 3
+}
+
+put {
+  url: https://eits.thebigocommunity.org/api/resource/Daily Work Allocation/DWA-250813-255
+  body: json
+  auth: inherit
+}
+
+params:query {
+  ~fields: ["name", "date", "assigned_to"]
+}
+
+body:json {
+  
+  {
+    "custom_work_allocation": []}
+}
+
+settings {
+  encodeUrl: true
+}

@@ -5,13 +5,13 @@ meta {
 }
 
 get {
-  url: http://eits.local:8000/api/method/eits_app.customer_search.search_customers?mobile_no=67
+  url: http://eits.local:8000/api/method/eits_app.customer_search.search_customers
   body: json
   auth: inherit
 }
 
 params:query {
-  mobile_no: 67
-  ~customer_name: ap-15
+  ~mobile_no: 67
+  ~customer_name: 
   ~email_id: 
 }

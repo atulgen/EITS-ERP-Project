@@ -5,18 +5,19 @@ meta {
 }
 
 get {
-  url: https://eits.thebigocommunity.org/api/method/eits_app.site_address_search.search_site_addresses?custom_customer_phone_number=543
+  url: https://eits.thebigocommunity.org/api/method/eits_app.site_address_search.search_site_addresses?search_term=56789
   body: none
   auth: inherit
 }
 
 params:query {
-  custom_customer_phone_number: 543
+  search_term: 56789
+  ~custom_customer_phone_number: 543
   ~custom_emirate: Dubai
   ~custom_area: island
   ~custom_property_number: 123
-  ~custom_street_name: 12
-  ~custom_community: jume
+  ~custom_street_name: street
+  ~custom_community: Barsha
   ~custom_customer_email: 22
   ~custom_lead_phone_number: 564
 }
