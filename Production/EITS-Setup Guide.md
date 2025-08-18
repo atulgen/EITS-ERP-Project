@@ -56,27 +56,44 @@ Install the following applications in sequence:
 - Set up lead assignment rules
 - Define lead status workflows
 - **Job Type**: Configure available job categories
+   - Doctype data imported
 - **Project Urgency**: Set urgency levels and priorities
+   - Doctype data imported
 - **Estimate Budget**: Configure budget templates and approval workflows
+  - Doctype data not imported
+
 
 ### 4.3 Geographic Data (UAE-specific)
 Configure UAE location hierarchy:
-- **UAE Address**: Set up address formats
+
 - **UAE Emirate**: Configure emirate listings
 - **UAE City**: Set up city databases
 - **UAE Area**: Configure area/district mappings
+   - Doctype data imported for all 3
+
 
 ### 4.4 User Management
-- **Users**: Create and configure user accounts
-- **Employee**: Set up employee profiles and records
+
 - **Department**: Configure organizational departments
 - **Designation**: Set up job titles and positions
+- **Roles** : Roles 
+   - This data is entered manually
 - **Employee Data**: Import or configure employee information
+   - **Users**: Create and configure user accounts
+   - **Employee**: Set up employee profiles and records
+      - Uploading users
+         - User setting will be created
+         - Roles are uploaded
+
 
 ### 4.5 Inventory Management
-- **Item**: Configure product/service items
 - **Item Group**: Set up item categorization
+   - Doctype data imported
 - **UOM (Unit of Measure)**: Configure measurement units
+   - Doctype data imported
+- **Item**: Configure product/service items
+   - Doctype data imported
+
 
 ## 5. Email Configuration
 
@@ -90,6 +107,20 @@ Configure UAE location hierarchy:
 - Test email workflows
 - Verify notification systems
 - Configure email routing rules
+
+
+
+---
+
+
+### Forms 
+
+- Sales 
+- Site Inspection
+- Supervisor
+- Amount
+
+
 
 ## 6. System Access Points
 
