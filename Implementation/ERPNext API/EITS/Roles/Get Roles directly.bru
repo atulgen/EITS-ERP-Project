@@ -1,0 +1,19 @@
+meta {
+  name: Get Roles directly
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/Has%20Role?filters=[["parent","=","helper1.ecoinnovative@gmail.com"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["parent","=","helper1.ecoinnovative@gmail.com"]]
+}
+
+settings {
+  encodeUrl: true
+}

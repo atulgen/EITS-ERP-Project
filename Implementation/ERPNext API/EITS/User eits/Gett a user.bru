@@ -5,12 +5,12 @@ meta {
 }
 
 get {
-  url: https://eits.thebigocommunity.org/api/resource/User?fields=["name", "email", "full_name", "roles"]
+  url: https://eits.thebigocommunity.org/api/resource/User/helper1.ecoinnovative@gmail.com
   body: none
   auth: inherit
 }
 
 params:query {
-  fields: ["name", "email", "full_name", "roles"]
+  ~fields: ["name", "email", "full_name", "roles"]
   ~filters: [["email", "=", "site_inspector@eits.com"]]
 }

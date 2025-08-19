@@ -1,0 +1,19 @@
+meta {
+  name: Get Role Python API
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.api.get_user_with_roles?user_email=helper1.ecoinnovative@gmail.com
+  body: none
+  auth: inherit
+}
+
+params:query {
+  user_email: helper1.ecoinnovative@gmail.com
+}
+
+settings {
+  encodeUrl: true
+}
