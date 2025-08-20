@@ -77,7 +77,10 @@ Configure UAE location hierarchy:
 - **Department**: Configure organizational departments
 - **Designation**: Set up job titles and positions
 - **Roles** : Roles 
-   - This data is entered manually
+   - TUpdate the Roles
+      - Create manually
+   - Role Profile
+      From data   
 - **Employee Data**: Import or configure employee information
    - **Users**: Create and configure user accounts
    - **Employee**: Set up employee profiles and records

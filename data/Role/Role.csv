@@ -1,9 +1,5 @@
-"Role Name","Home Page","Restrict To Domain","Disabled","Is Custom","Desk Access","Two Factor Authentication"
-"EITS_Technical_Specialist","","",0,1,1,0
-"EITS_Site_Supervisor","","",0,1,1,0
-"EITS_Project_Manager","","",0,1,1,0
-"EITS_Customer_Service","","",0,1,1,0
-"EITS_Sales_Executive","","",0,1,1,0
-"EITS_Sales_Manager","","",0,1,1,0
-"EITS_Operations_Manager","","",0,1,1,0
-"EITS_CEO","","",0,1,1,0
+"Role Name"
+"EITS_Supervisor"
+"EITS_Sale_Representative"
+"EITS_Site_Inspector"
+"EITS_Project_Manager"
