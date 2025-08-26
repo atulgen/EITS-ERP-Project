@@ -262,5 +262,20 @@ Can you share the contents of your nginx sites-available directory and the confi
 ## Changed the main helped. 
 
 - Main : config: /etc/nginx/nginx.conf
+
+     client_max_body_size 100M;
+
+
+
 - Site level config: /etc/nginx/site-available/eits.thebigocommunity.org
+
+
+    client_max_body_size 100M;
+    client_body_timeout 120s;
+    client_header_timeout 120s;
+
+    increased timeout to 300
+ 
 - Inside Frappe, config: nginx.conf
+
+

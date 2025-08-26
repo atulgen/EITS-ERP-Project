@@ -1,0 +1,27 @@
+meta {
+  name: get customer by site address prod
+  type: http
+  seq: 14
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.site_address_search.search_site_addresses?search_term=56789
+  body: none
+  auth: inherit
+}
+
+params:query {
+  search_term: 56789
+  ~custom_customer_phone_number: 543
+  ~custom_emirate: Dubai
+  ~custom_area: island
+  ~custom_property_number: 123
+  ~custom_street_name: street
+  ~custom_community: Barsha
+  ~custom_customer_email: 22
+  ~custom_lead_phone_number: 564
+}
+
+settings {
+  encodeUrl: true
+}

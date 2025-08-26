@@ -1,0 +1,19 @@
+meta {
+  name: Login production
+  type: http
+  seq: 6
+}
+
+post {
+  url: https://erp.eitsdubai.com/api/method/login
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "usr": "atul.raj@gennextit.com",
+    "pwd": "6fbeoVUK0X#53"
+  }
+  
+}

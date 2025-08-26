@@ -1,0 +1,19 @@
+meta {
+  name: get employee availability UAT
+  type: http
+  seq: 26
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/method/eits_app.inspector_availability.get_employee_availability?date=2025-08-25
+  body: none
+  auth: inherit
+}
+
+params:query {
+  date: 2025-08-25
+}
+
+settings {
+  encodeUrl: true
+}

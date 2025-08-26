@@ -1,0 +1,20 @@
+meta {
+  name: Get Specific DWA copy
+  type: http
+  seq: 4
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/Daily Work Allocation?filters=[["custom_user", "=", "foreman1.ecoinnovative@gmail.com"], ["date", "=", "25-08-2025"],["Work","expected_start_date","=","15:30:00"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["custom_user", "=", "foreman1.ecoinnovative@gmail.com"], ["date", "=", "25-08-2025"],["Work","expected_start_date","=","15:30:00"]]
+  ~fields: ["name", "date", "assigned_to"]
+}
+
+settings {
+  encodeUrl: true
+}

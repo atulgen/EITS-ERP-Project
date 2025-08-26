@@ -62,6 +62,9 @@ Install the following applications in sequence:
 - **Estimate Budget**: Configure budget templates and approval workflows
   - Doctype data not imported
 
+- **Property**
+   - Property Category
+   - Property Type
 
 ### 4.3 Geographic Data (UAE-specific)
 Configure UAE location hierarchy:
@@ -96,6 +99,11 @@ Configure UAE location hierarchy:
    - Doctype data imported
 - **Item**: Configure product/service items
    - Doctype data imported
+
+
+### 5. Others
+
+- Method of Payment
 
 
 ## 5. Email Configuration

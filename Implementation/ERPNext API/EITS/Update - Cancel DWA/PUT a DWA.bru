@@ -1,0 +1,25 @@
+meta {
+  name: PUT a DWA
+  type: http
+  seq: 3
+}
+
+put {
+  url: https://eits.thebigocommunity.org/api/resource/Daily Work Allocation/DWA-250825-644
+  body: json
+  auth: inherit
+}
+
+params:query {
+  ~fields: ["name", "date", "assigned_to"]
+}
+
+body:json {
+  {
+        "docstatus": 2
+  }
+}
+
+settings {
+  encodeUrl: true
+}
