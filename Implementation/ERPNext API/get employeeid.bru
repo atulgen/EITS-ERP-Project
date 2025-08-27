@@ -1,0 +1,19 @@
+meta {
+  name: get employeeid
+  type: http
+  seq: 22
+}
+
+get {
+  url: https://eits.thebigocommunity.org/api/resource/Employee?filters=[["user_id","=","helper1.ecoinnovative@gmail.com"]]
+  body: none
+  auth: inherit
+}
+
+params:query {
+  filters: [["user_id","=","helper1.ecoinnovative@gmail.com"]]
+}
+
+settings {
+  encodeUrl: true
+}
