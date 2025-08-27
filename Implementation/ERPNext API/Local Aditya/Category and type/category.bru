@@ -1,0 +1,19 @@
+meta {
+  name: category
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://eits.local:8000/api/resource/Category/Industrial
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~filters: [["name","=","Industrial"]]
+}
+
+settings {
+  encodeUrl: true
+}

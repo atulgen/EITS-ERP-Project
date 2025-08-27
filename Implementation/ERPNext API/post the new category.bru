@@ -1,0 +1,15 @@
+meta {
+  name: post the new category
+  type: http
+  seq: 23
+}
+
+get {
+  url: http://eits.local:8000/api/resource/Type/Factory
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
